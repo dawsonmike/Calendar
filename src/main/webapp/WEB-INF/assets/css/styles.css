@@ -1,0 +1,50 @@
+/* Fixed Navbar Top Offset */
+html{
+  position: relative;
+  padding-bottom: 60px;
+  min-height: 100%;
+}
+
+header{
+	
+}
+
+nav{
+	
+}
+
+body { 
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+ul.side-notes li{
+	list-style-type: none;
+}
+ul.side-notes li hr{
+	min-height: 20px;
+}
+.arrow-up{
+    width: 0px;
+    height: 0px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #FFF;
+    padding: 10px 0px 0px;
+    margin: 0px auto;
+}
+
+.nav-menu.showup{
+	visibility: visible;
+}
+
+.nav-menu li:first-child{
+	padding-top: 15px;
+}

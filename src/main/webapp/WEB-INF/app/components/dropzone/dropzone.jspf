@@ -1,0 +1,33 @@
+<script type="text/javascript" src="js/dropzone.js"></script>
+<script type="text/javascript" src="components/dropzone/controller.js"></script>
+<style>
+.component{
+	padding-top: 100px;
+}
+#dropzone-component {
+    width: 100%;
+    border: 2px dashed #BBB;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    color: #BBB;
+}
+</style>
+<section class="component" ng-app="DropzoneApp" ng-controller="DropzoneCtrl">
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1 style="text-align:center">Save Your Docs!</h1>
+			<p>Add Important Docs such as:</p>
+			<ul>
+				<li>Release Notes</li>
+				<li>Personnel Rosters</li>
+				<li>Failover Plans</li>
+				<li>Anything critical to success!</li>
+			</ul>
+		</div>
+	</div>
+	<div id='dropzone-component'>
+	    <form action="#" class='dropzone' id="doc-dropzone"></form>
+	</div>
+</section>

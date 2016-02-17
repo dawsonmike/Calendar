@@ -1,0 +1,8 @@
+<script type="text/javascript" src="components/main/controller.js"></script>
+<section ng-app="MainApp" ng-controller="MainCtrl">
+	<div class="jumbotron col-md-8 col-md-offset-2">
+		<h1>Employee Resource Calendar</h1>
+		<p>Here is a demo application for sharing the Employee Resource Calendar.  Click below to get started</p>
+		<p><a class="btn btn-primary btn-lg pull-right" href="faq.jsp" role="button">Get More Info</a></p>
+	</div>
+</section>

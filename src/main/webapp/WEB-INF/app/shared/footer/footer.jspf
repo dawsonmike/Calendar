@@ -1,0 +1,9 @@
+<footer>
+	<div class="col-md-12 text-center">
+		Copyright &copy; <object data="allstate-brand/allstate.svg" type="image/svg+xml"></object> - <i>Innovation Research & Development</i>
+		<script type="text/javascript">
+			var d = new Date()
+			document.write(d.getFullYear())
+		</script>
+	</div>
+</footer>

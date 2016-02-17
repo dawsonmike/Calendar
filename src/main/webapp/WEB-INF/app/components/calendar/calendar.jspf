@@ -1,0 +1,14 @@
+<script type="text/javascript" src="components/calendar/controller.js"></script>
+<section ng-app="calendarApp" ng-controller="CalendarCtrl">
+	<article class="col-md-8" id="calendar"></article>
+	<aside class="col-md-4">
+		<ul class="side-notes col-md-12">
+			<li ng-repeat="event in events">
+				<h3><span class="label label-default">Event ID:&emsp;{{event.id}}</span></h3>
+				<h4><span class="label label-default">Name:&emsp;{{event.name}}</span></h4>
+				<h5><span class="label label-default">Description:&emsp;{{event.description}}</span></h5>
+				<hr/>
+			</li>
+		</ul>
+	</aside>
+</section>
